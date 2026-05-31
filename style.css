@@ -9,6 +9,8 @@ body {
   padding: 0;
 }
 
+/* Add styles here! */
+
 header, main{
   padding-top: 72px;
   padding-bottom: 72px;
@@ -37,7 +39,6 @@ p{
   }
 }
 
-/* Add styles here! */
 .max-width-wrapper{
   max-width: 800px;
   margin-left: auto;

@@ -9,4 +9,30 @@ body {
   padding: 0;
 }
 
+main{
+  background-color: #666666;
+  padding-top: 24px;
+  padding-bottom: 24px;
+}
+
+p{
+  font-size: 1.43rem;
+  line-height: 1.5;
+}
+
+.intro-chunk{
+  padding-left: 24px;
+  padding-right: 24px;
+}
+
 /* Add styles here! */
+.max-width-wrapper{
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.card{
+  background-color: #fff;
+  padding: 24px;
+}

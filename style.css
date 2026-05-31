@@ -9,20 +9,32 @@ body {
   padding: 0;
 }
 
+header, main{
+  padding-top: 72px;
+  padding-bottom: 72px;
+}
+
 main{
   background-color: #666666;
-  padding-top: 24px;
-  padding-bottom: 24px;
 }
 
 p{
-  font-size: 1.43rem;
+  font-size: 1.25rem;
   line-height: 1.5;
 }
 
 .intro-chunk{
   padding-left: 24px;
   padding-right: 24px;
+  max-width: 500px;
+
+  .title{
+    margin-bottom: 50px;
+  }
+
+  strong{
+    color: #009966;
+  }
 }
 
 /* Add styles here! */
@@ -34,5 +46,18 @@ p{
 
 .card{
   background-color: #fff;
-  padding: 24px;
+  padding: 8px 24px 24px;
+}
+
+.indented-heading{
+  background-color: #FFBF00;
+  padding: 16px 32px;
+  max-width: fit-content;
+  border-bottom: 8px solid #CC9900;
+  margin-left: -34px;
+  margin-top: 0;
+}
+
+header, .card{
+  border-bottom: 8px solid #999999;
 }
